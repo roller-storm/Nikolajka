@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kalendář událostí</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    iframe {
+      max-width: 100%;
+      border: solid 1px #777;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kalendář událostí</h1>
+  <iframe 
+    src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FPrague&src=MWUxNDllOGQ0MzhlYWE4MjVjZmU5MjYwMWZhNmZmNGZkMzFiZjFmZmYwZGZlNzUyZWJjMGJlNTY0ZTFmMGM0N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000" 
+    style="border:solid 1px #777" 
+    width="1200" 
+    height="600" 
+    frameborder="0" 
+    scrolling="no">
+  </iframe>
+</body>
+</html>
